@@ -5,7 +5,7 @@ using UnityEngine;
 public class SplineFollower : MonoBehaviour
 {
     public Catmull_Rom_Spline spline;
-    public float speed = 0.5f; 
+    public float speed; 
 
     private float t = 0f; // Parameter for the spline position (0 to 1)
 
